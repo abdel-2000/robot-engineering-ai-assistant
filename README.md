@@ -359,3 +359,48 @@ python evaluate_tools.py
 Robotics software projects are complex and often contain hundreds of files.
 
 Robot Engineering AI Assistant helps robotics engineers quickly inspect ROS2 projects, review MQTT communication, evaluate robot safety parameters and generate engineering reports using multiple AI agents and reusable Python analysis tools.
+## Architecture
+
+![System Architecture](docs/images/architecture.png)
+
+The overall multi-agent architecture built with Google ADK, MCP and specialized robotics agents.
+
+---
+
+## Project Structure
+
+![Project Structure](docs/images/project_structure.png)
+
+Organization of the project folders, agents, analysis tools, skills, and workspace.
+
+---
+
+## Evaluation Results
+
+![Evaluation Results](docs/images/evaluation.png)
+
+All evaluation tests successfully passed.
+
+---
+
+## ROS2 Package Analysis
+
+![ROS2 Package Analysis](docs/images/ros2_analysis.png)
+
+Example output of the ROS2 Package Analyzer.
+
+---
+
+## MQTT Configuration Analysis
+
+![MQTT Configuration Analysis](docs/images/mqtt_analysis.png)
+
+Example output of the MQTT Configuration Analyzer.
+
+---
+
+## Robot Safety Analysis
+
+![Robot Safety Analysis](docs/images/safety_analysis.png)
+
+Example output of the Robot Safety Analyzer.
