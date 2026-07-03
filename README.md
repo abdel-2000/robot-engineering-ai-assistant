@@ -339,10 +339,15 @@ Completed:
 Apache-2.0
 
 ---
+## Author
 
-# Author
+**Abdellatif El Majdoubi**
 
-Developed by **Abdel El** as part of the **Google × Kaggle AI Agents** learning path and an ongoing robotics engineering portfolio focused on AI Agents, ROS2, MQTT, and robotic software analysis.
+AI & Robotics Engineering Student
+
+This project was developed as part of the **Google × Kaggle AI Agents: Intensive Vibe Coding Course (2026)** and contributes to my robotics engineering portfolio, focusing on AI Agents, Google ADK, ROS2, MQTT, Model Context Protocol (MCP), and robotic software analysis.
+
+GitHub: https://github.com/abdel-2000
 ## Automated Evaluation
 
 The project includes an automated evaluation script:
