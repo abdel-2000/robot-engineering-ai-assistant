@@ -1,0 +1,14 @@
+robot_controller:
+  ros__parameters:
+    # Kinematic Limits
+    max_speed: 0.5              # Maximum linear velocity (m/s) for safety around humans
+    max_acceleration: 0.2       # Maximum acceleration (m/s^2)
+    max_angular_rate: 0.8       # Maximum angular rate (rad/s)
+
+    # Safety and Obstacle Avoidance
+    human_proximity_threshold: 1.2  # Slow down or stop if a human is closer than this limit (meters)
+    emergency_stop_enabled: true     # Initial state of emergency stop software flag
+
+    # Hardware Interface
+    wheel_radius: 0.15          # Meters
+    track_width: 0.45           # Meters

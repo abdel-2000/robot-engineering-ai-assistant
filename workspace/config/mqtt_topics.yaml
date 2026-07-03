@@ -1,0 +1,16 @@
+mqtt:
+  broker:
+    host: "localhost"
+    port: 1883
+    keepalive: 60
+    client_id: "assistive_robot_gateway"
+
+  topics:
+    # Telemetry and Status updates (Publish from Robot to broker)
+    telemetry: "robot/assistive_01/telemetry"
+    status: "robot/assistive_01/status"
+    safety_status: "robot/assistive_01/safety/status"
+
+    # Commands and Control (Subscribe from broker to robot)
+    commands: "robot/assistive_01/control/cmd_vel"
+    estop_command: "robot/assistive_01/control/estop"
